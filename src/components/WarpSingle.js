@@ -434,8 +434,8 @@ const WarpSingle = ({
                     className={`single-item weap`}
                     onAnimationStart={() => {
                       if (item.rarity !== 5) setAnimateFancy(true);
+                      setAnimateInfo(true)
                     }}
-                    onAnimationEnd={() => setAnimateInfo(true)}
                     alt={currentWarp[i]}
                     src={`/assets/splash/${cleanText(
                       json.getName(currentWarp[i])

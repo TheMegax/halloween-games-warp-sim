@@ -72,6 +72,8 @@ const MiniBanner = ({ path, active, handleSelect, lockout }) => {
   );
 };
 
+/*
+// TODO this has been edited out
 const bannerTypes = [
   "beginner",
   "char",
@@ -79,6 +81,11 @@ const bannerTypes = [
   "weap",
   "rerun-weap",
   "standard",
+];
+ */
+
+const bannerTypes = [
+  "weap",
 ];
 export default function MiniBanners({
   bannerType,

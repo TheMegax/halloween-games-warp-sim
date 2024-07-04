@@ -1,5 +1,90 @@
 [
   {
+    "name": "Legendary Item",
+    "path": "Destruction",
+    "rarity": 5
+  },
+  {
+    "name": "Candy Bag",
+    "path": "Harmony",
+    "rarity": 5
+  },
+  {
+    "name": "Stellar Candy",
+    "path": "Harmony",
+    "rarity": 5
+  },
+  {
+    "name": "Normal Item 1",
+    "path": "The Hunt",
+    "rarity": 4
+  },
+  {
+    "name": "Normal Item 2",
+    "path": "Nihility",
+    "rarity": 4
+  },
+  {
+    "name": "Normal Item 3",
+    "path": "Preservation",
+    "rarity": 4
+  },
+  {
+    "name": "Pumpkin Piece",
+    "path": "Erudition",
+    "rarity": 4
+  },
+  {
+    "name": "Pretzel Piece 1",
+    "path": "Abundance",
+    "rarity": 3
+  },
+  {
+    "name": "Pretzel Piece 2",
+    "path": "Erudition",
+    "rarity": 3
+  },
+  {
+    "name": "Gummy Piece 1",
+    "path": "The Hunt",
+    "rarity": 3
+  },
+  {
+    "name": "Gummy Piece 2",
+    "path": "Abundance",
+    "rarity": 3
+  },
+  {
+    "name": "Toffee Piece 1",
+    "path": "Abundance",
+    "rarity": 3
+  },
+  {
+    "name": "Toffee Piece 2",
+    "path": "Destruction",
+    "rarity": 3
+  },
+  {
+    "name": "Pocky Piece 1",
+    "path": "Preservation",
+    "rarity": 3
+  },
+  {
+    "name": "Pocky Piece 2",
+    "path": "Abundance",
+    "rarity": 3
+  },
+  {
+    "name": "Pipebomb Piece 1",
+    "path": "Destruction",
+    "rarity": 3
+  },
+  {
+    "name": "Pipebomb Piece 2",
+    "path": "Destruction",
+    "rarity": 3
+  },
+  {
     "name": "Baptism of Pure Thought",
     "path": "The Hunt",
     "rarity": 5

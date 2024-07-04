@@ -28,12 +28,19 @@ function App() {
     process.env.NODE_ENV === "production"
   );
 
+  // TODO edited
+  /*
   const [bannerType, setBannerType] = useState(
     sessionStorage.getItem("bannerType")
       ? sessionStorage.getItem("bannerType")
       : parseInt(localStorage.getItem("totalBeginner")) === 5
       ? "char"
       : "beginner"
+  );
+   */
+
+  const [bannerType, setBannerType] = useState(
+      "weap"
   );
 
   const [currentWarp, setCurrentWarp] = useState([]);

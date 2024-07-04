@@ -22,8 +22,8 @@ const chanceFour = (currentPity, baseRate) => {
 
 export const CalcWarp = (vers, type, banner, setHasFive, setHasFour) => {
   const warpChance = Math.random();
-  const rateUpChance = type.includes("char") ? 0.5625 : 0.78125;
-  const rateUp = Math.random() < rateUpChance ? true : false;
+  const rateUpChance = 0.5625;
+  const rateUp = Math.random() < rateUpChance;
   const char = Math.random() < 0.5;
   let warpItem;
   if (
@@ -85,7 +85,8 @@ export const CalcWarp = (vers, type, banner, setHasFive, setHasFour) => {
       } else {
         // draw from non rate up
         banner.guaranteeFour = true;
-        if (char) warpItem = randItem(json.getPoolFourChar(vers, type));
+        if (type.includes("weap")) warpItem = randItem(json.getPoolFourWeap(vers, type));
+        else if (char) warpItem = randItem(json.getPoolFourChar(vers, type));
         else warpItem = randItem(json.getPoolFourWeap(vers, type));
       }
     } else {

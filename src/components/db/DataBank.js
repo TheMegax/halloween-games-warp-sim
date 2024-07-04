@@ -88,7 +88,7 @@ export default function DataBank({ type, setContent, setShowDB }) {
   const [checked, setChecked] = useState(
     sessionStorage.getItem("db-count")
       ? JSON.parse(sessionStorage.getItem("db-count"))
-      : false
+      : true
   );
 
   const handleCount = () => {
@@ -233,6 +233,7 @@ export default function DataBank({ type, setContent, setShowDB }) {
             checked={checked}
             text="Count"
           />
+
         </div>
         <Scrollbars
           className="db-item-container"
